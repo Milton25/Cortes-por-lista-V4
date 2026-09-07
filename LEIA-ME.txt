@@ -1,0 +1,19 @@
+INSTALADOR - CORTES POR LISTA V4.1
+
+1. Extraia todos os arquivos desta pasta/ZIP.
+2. Clique com o botao direito em Executar_Instalador.bat.
+3. Selecione "Executar como administrador".
+4. Aceite a permissao do Windows.
+5. O instalador:
+   - verifica o Python 3.12;
+   - baixa e instala o Python 3.12.9 caso necessario;
+   - cria a pasta de scripts Utility do DaVinci Resolve, caso ela nao exista;
+   - copia Cortes_por_Lista_V4_1_Corrigida.py para:
+
+     C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\Utility
+
+6. Reinicie o DaVinci Resolve.
+
+IMPORTANTE:
+- É necessário acesso à internet caso o Python 3.12 ainda não esteja instalado.
+- O instalador foi preparado para Windows 64 bits.
